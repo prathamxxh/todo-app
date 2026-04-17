@@ -1,0 +1,51 @@
+body {
+    background-color: #E9F1FA;
+    font-family: Arial, sans-serif;
+}
+
+#parentDiv {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#inputDiv {
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    padding: 8px;
+    width: 65%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#listDiv div {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#listDiv span {
+    flex: 1;
+    margin-left: 10px;
+    text-align: left;
+}
